@@ -47,6 +47,26 @@ Finally, the `.finally()` method is called to `log` a message to the `console`.
 
 By using `fetch()`, `.then()`, and `.finally()`, we were able to make an `asynchronous` request to an `API` and *handle the returned data* in a clear and concise way.
 
+## Challenge
+
+Create a storefront for the products from this API to display your use of fetch
+
+P.S. you can find the images for the products at:
+
+```text
+https://mdn.github.io/learning-area/javascript/apis/fetching-data/can-store/images/${product.image}`
+```
+
+```js
+const products = fetch(
+  "https://mdn.github.io/learning-area/javascript/apis/fetching-data/can-store/products.json"
+);
+```
+
+### Alternatively
+
+You can use the GitHub API to list your repos on your portfolio.
+
 ## Resources
 
 By now you should be using problem solving skills by using Search Engines like:
