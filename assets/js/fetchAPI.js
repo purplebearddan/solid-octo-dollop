@@ -18,6 +18,10 @@ fetch("/assets/json/users.json")
         users.forEach((user) => addToPage(user, appElement));
     });
 
-// const products = fetch(
-//     "https://mdn.github.io/learning-area/javascript/apis/fetching-data/can-store/products.json"
-// );
+// create a storefront for the products from this API to display your use of fetch
+const products = fetch(
+    "https://mdn.github.io/learning-area/javascript/apis/fetching-data/can-store/products.json"
+);
+
+
+// alternatively: you can use the GitHub API to list your repos on your portfolio.
